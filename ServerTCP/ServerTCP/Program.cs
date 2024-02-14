@@ -20,25 +20,42 @@ namespace ServerTCP
 
             while (true)
             {
-                var listener = tcpSocket.Accept();
-                var buffer = new byte[256];
-                var size = 0;
-                var data = new StringBuilder();
-
-                do
+                try
                 {
-                    size = listener.Receive(buffer);
-                    data.Append(Encoding.UTF8.GetString(buffer, 0, size));
-                } 
-                while (listener.Available > 0);
+                    var listener = tcpSocket.Accept();
+                    var buffer = new byte[256];
+                    var size = 0;
+                    var data = new StringBuilder();
 
-                Console.WriteLine(data);
+                    do
+                    {
+                        size = listener.Receive(buffer);
+                        data.Append(Encoding.UTF8.GetString(buffer, 0, size));
+                    }
+                    while (listener.Available > 0);
 
-                listener.Send(Encoding.UTF8.GetBytes("Good!"));
+                    Console.WriteLine($"Received from client: {data}");
+                    string reversedData = ReverseString(data.ToString());
+                    Console.WriteLine($"Sent to client: {reversedData}");
 
-                listener.Shutdown(SocketShutdown.Both);
-                listener.Close();
+                    listener.Send(Encoding.UTF8.GetBytes(reversedData));
+
+                    listener.Shutdown(SocketShutdown.Both);
+                    listener.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
             }
         }
+
+        private static string ReverseString(string input)
+        {
+            char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        } 
     }
 }
+
