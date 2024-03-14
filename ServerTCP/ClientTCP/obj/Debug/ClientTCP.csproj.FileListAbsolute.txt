@@ -1,7 +1,0 @@
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\bin\Debug\ClientTCP.exe.config
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\bin\Debug\ClientTCP.exe
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\bin\Debug\ClientTCP.pdb
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\obj\Debug\ClientTCP.csproj.AssemblyReference.cache
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\obj\Debug\ClientTCP.csproj.CoreCompileInputs.cache
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\obj\Debug\ClientTCP.exe
-D:\БГУИР\ComputerNetworks\ServerTCP\ClientTCP\obj\Debug\ClientTCP.pdb

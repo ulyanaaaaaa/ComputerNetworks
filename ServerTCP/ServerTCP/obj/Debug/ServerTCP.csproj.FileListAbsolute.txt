@@ -1,7 +1,0 @@
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\bin\Debug\ServerTCP.exe.config
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\bin\Debug\ServerTCP.exe
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\bin\Debug\ServerTCP.pdb
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\obj\Debug\ServerTCP.csproj.AssemblyReference.cache
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\obj\Debug\ServerTCP.csproj.CoreCompileInputs.cache
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\obj\Debug\ServerTCP.exe
-D:\БГУИР\ComputerNetworks\ServerTCP\ServerTCP\obj\Debug\ServerTCP.pdb

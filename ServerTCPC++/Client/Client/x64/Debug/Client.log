@@ -1,0 +1,3 @@
+﻿  Client.cpp
+D:\BSUIR\ComputerNetworks\Client\Client\Client.cpp(38,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Client.vcxproj -> D:\BSUIR\ComputerNetworks\Client\x64\Debug\Client.exe

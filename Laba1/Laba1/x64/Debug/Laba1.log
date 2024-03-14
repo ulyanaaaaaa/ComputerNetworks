@@ -1,2 +1,0 @@
-﻿Server.obj : error LNK2005: main уже определен в Client.obj
-D:\БГУИР\ComputerNetworks\Laba1\x64\Debug\Laba1.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
